@@ -1,0 +1,5 @@
+/root/桌面/workspace/sylar/build/CMakeFiles/sylar.dir
+/root/桌面/workspace/sylar/build/CMakeFiles/test.dir
+/root/桌面/workspace/sylar/build/CMakeFiles/test_config.dir
+/root/桌面/workspace/sylar/build/CMakeFiles/edit_cache.dir
+/root/桌面/workspace/sylar/build/CMakeFiles/rebuild_cache.dir
