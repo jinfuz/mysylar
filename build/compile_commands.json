@@ -1,0 +1,247 @@
+[
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/log.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/log.cc.o -c /root/桌面/workspace/sylar/sylar/log.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/log.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/util.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/util.cc.o -c /root/桌面/workspace/sylar/sylar/util.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/util.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/mutex.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/mutex.cc.o -c /root/桌面/workspace/sylar/sylar/mutex.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/mutex.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/env.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/env.cc.o -c /root/桌面/workspace/sylar/sylar/env.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/env.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/config.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/config.cc.o -c /root/桌面/workspace/sylar/sylar/config.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/config.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/thread.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/thread.cc.o -c /root/桌面/workspace/sylar/sylar/thread.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/thread.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/fiber.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/fiber.cc.o -c /root/桌面/workspace/sylar/sylar/fiber.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/fiber.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/scheduler.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/scheduler.cc.o -c /root/桌面/workspace/sylar/sylar/scheduler.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/scheduler.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/iomanager.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/iomanager.cc.o -c /root/桌面/workspace/sylar/sylar/iomanager.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/iomanager.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/timer.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/timer.cc.o -c /root/桌面/workspace/sylar/sylar/timer.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/timer.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/fd_manager.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/fd_manager.cc.o -c /root/桌面/workspace/sylar/sylar/fd_manager.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/fd_manager.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/hook.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/hook.cc.o -c /root/桌面/workspace/sylar/sylar/hook.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/hook.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/address.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/address.cc.o -c /root/桌面/workspace/sylar/sylar/address.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/address.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/socket.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/socket.cc.o -c /root/桌面/workspace/sylar/sylar/socket.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/socket.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/bytearray.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/bytearray.cc.o -c /root/桌面/workspace/sylar/sylar/bytearray.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/bytearray.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/tcp_server.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/tcp_server.cc.o -c /root/桌面/workspace/sylar/sylar/tcp_server.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/tcp_server.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/gcc -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http-parser/http_parser.c\\\" -I/root/桌面/workspace/sylar/. -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http-parser/http_parser.c.o -c /root/桌面/workspace/sylar/sylar/http/http-parser/http_parser.c",
+  "file": "/root/桌面/workspace/sylar/sylar/http/http-parser/http_parser.c"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http.cc.o -c /root/桌面/workspace/sylar/sylar/http/http.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/http/http.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http_parser.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o -c /root/桌面/workspace/sylar/sylar/http/http_parser.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/http/http_parser.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/stream.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/stream.cc.o -c /root/桌面/workspace/sylar/sylar/stream.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/stream.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/streams/socket_stream.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o -c /root/桌面/workspace/sylar/sylar/streams/socket_stream.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/streams/socket_stream.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http_session.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_session.cc.o -c /root/桌面/workspace/sylar/sylar/http/http_session.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/http/http_session.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/servlet.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/servlet.cc.o -c /root/桌面/workspace/sylar/sylar/http/servlet.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/http/servlet.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http_server.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_server.cc.o -c /root/桌面/workspace/sylar/sylar/http/http_server.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/http/http_server.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/uri.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/uri.cc.o -c /root/桌面/workspace/sylar/sylar/uri.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/uri.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http_connection.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o -c /root/桌面/workspace/sylar/sylar/http/http_connection.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/http/http_connection.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/daemon.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/daemon.cc.o -c /root/桌面/workspace/sylar/sylar/daemon.cc",
+  "file": "/root/桌面/workspace/sylar/sylar/daemon.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_log.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_log.dir/tests/test_log.cc.o -c /root/桌面/workspace/sylar/tests/test_log.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_log.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_util.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_util.dir/tests/test_util.cc.o -c /root/桌面/workspace/sylar/tests/test_util.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_util.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_env.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_env.dir/tests/test_env.cc.o -c /root/桌面/workspace/sylar/tests/test_env.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_env.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_config.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_config.dir/tests/test_config.cc.o -c /root/桌面/workspace/sylar/tests/test_config.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_config.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_thread.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_thread.dir/tests/test_thread.cc.o -c /root/桌面/workspace/sylar/tests/test_thread.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_thread.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_fiber.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -c /root/桌面/workspace/sylar/tests/test_fiber.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_fiber.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_fiber2.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_fiber2.dir/tests/test_fiber2.cc.o -c /root/桌面/workspace/sylar/tests/test_fiber2.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_fiber2.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_scheduler.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -c /root/桌面/workspace/sylar/tests/test_scheduler.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_scheduler.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_iomanager.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -c /root/桌面/workspace/sylar/tests/test_iomanager.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_iomanager.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_timer.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_timer.dir/tests/test_timer.cc.o -c /root/桌面/workspace/sylar/tests/test_timer.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_timer.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_hook.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_hook.dir/tests/test_hook.cc.o -c /root/桌面/workspace/sylar/tests/test_hook.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_hook.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_address.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_address.dir/tests/test_address.cc.o -c /root/桌面/workspace/sylar/tests/test_address.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_address.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_socket_tcp_server.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_socket_tcp_server.dir/tests/test_socket_tcp_server.cc.o -c /root/桌面/workspace/sylar/tests/test_socket_tcp_server.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_socket_tcp_server.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_socket_tcp_client.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_socket_tcp_client.dir/tests/test_socket_tcp_client.cc.o -c /root/桌面/workspace/sylar/tests/test_socket_tcp_client.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_socket_tcp_client.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_bytearray.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_bytearray.dir/tests/test_bytearray.cc.o -c /root/桌面/workspace/sylar/tests/test_bytearray.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_bytearray.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_tcp_server.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_tcp_server.dir/tests/test_tcp_server.cc.o -c /root/桌面/workspace/sylar/tests/test_tcp_server.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_tcp_server.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_http.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_http.dir/tests/test_http.cc.o -c /root/桌面/workspace/sylar/tests/test_http.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_http.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_http_parser.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_http_parser.dir/tests/test_http_parser.cc.o -c /root/桌面/workspace/sylar/tests/test_http_parser.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_http_parser.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_http_server.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o -c /root/桌面/workspace/sylar/tests/test_http_server.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_http_server.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_uri.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_uri.dir/tests/test_uri.cc.o -c /root/桌面/workspace/sylar/tests/test_uri.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_uri.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_http_connection.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_http_connection.dir/tests/test_http_connection.cc.o -c /root/桌面/workspace/sylar/tests/test_http_connection.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_http_connection.cc"
+},
+{
+  "directory": "/root/桌面/workspace/sylar/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++  -D__FILE__=\\\"tests/test_daemon.cc\\\" -I/root/桌面/workspace/sylar/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_daemon.dir/tests/test_daemon.cc.o -c /root/桌面/workspace/sylar/tests/test_daemon.cc",
+  "file": "/root/桌面/workspace/sylar/tests/test_daemon.cc"
+}
+]

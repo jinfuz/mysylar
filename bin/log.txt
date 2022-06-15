@@ -1,2 +1,84 @@
-2022-05-07 14:30:28	ERROR	test macro error
-2022-05-07 14:30:28	ERROR	test macro fmt error aa
+2022-06-14 09:48:15 [1033ms]	12897	brand_new_threa	0	[FATAL]	[root]	tests/test_log.cc:33	fatal msg
+2022-06-14 09:48:15 [1033ms]	12897	brand_new_threa	0	[ERROR]	[root]	tests/test_log.cc:34	err msg
+2022-06-14 09:48:15 [1033ms]	12897	brand_new_threa	0	[INFO]	[root]	tests/test_log.cc:50	logger config:- name: http
+  level: DEBUG
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%f:%l%T%m%n"
+- name: root
+  level: INFO
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d{%Y-%m-%d %H:%M:%S} %T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+    - type: FileLogAppender
+      file: ./log.txt
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+- name: system
+  level: INFO
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+    - type: FileLogAppender
+      file: /root/桌面/workspace/sylar/sylar/system.txt
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+- name: test_logger
+  level: WARN
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d:%rms%T%p%T%c%T%f:%l %m%n"
+2022-06-15 02:23:24 [1033ms]	82723	brand_new_threa	0	[FATAL]	[root]	tests/test_log.cc:33	fatal msg
+2022-06-15 02:23:24 [1034ms]	82723	brand_new_threa	0	[ERROR]	[root]	tests/test_log.cc:34	err msg
+2022-06-15 02:23:24 [1034ms]	82723	brand_new_threa	0	[INFO]	[root]	tests/test_log.cc:50	logger config:- name: http
+  level: DEBUG
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%f:%l%T%m%n"
+- name: root
+  level: INFO
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d{%Y-%m-%d %H:%M:%S} %T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+    - type: FileLogAppender
+      file: ./log.txt
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+- name: system
+  level: INFO
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+    - type: FileLogAppender
+      file: /root/桌面/workspace/sylar/sylar/system.txt
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+- name: test_logger
+  level: WARN
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d:%rms%T%p%T%c%T%f:%l %m%n"
+2022-06-15 03:45:48 [1031ms]	56044	brand_new_threa	0	[FATAL]	[root]	tests/test_log.cc:33	fatal msg
+2022-06-15 03:45:48 [1031ms]	56044	brand_new_threa	0	[ERROR]	[root]	tests/test_log.cc:34	err msg
+2022-06-15 03:45:48 [1032ms]	56044	brand_new_threa	0	[INFO]	[root]	tests/test_log.cc:50	logger config:- name: http
+  level: DEBUG
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%f:%l%T%m%n"
+- name: root
+  level: INFO
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d{%Y-%m-%d %H:%M:%S} %T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+    - type: FileLogAppender
+      file: ./log.txt
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+- name: system
+  level: INFO
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+    - type: FileLogAppender
+      file: /root/桌面/workspace/sylar/sylar/system.txt
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+- name: test_logger
+  level: WARN
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d:%rms%T%p%T%c%T%f:%l %m%n"

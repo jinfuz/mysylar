@@ -1,50 +1,116 @@
 #include "sylar/config.h"
+#include "sylar/env.h"
+#include "sylar/util.h"
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
 
-namespace sylar{
-    Config::ConfigVarMap Config::s_datas;
-    ConfigVarBase::ptr Config::LookupBase(const std::string& name) {
-        auto it = s_datas.find(name);
-        return it == s_datas.end() ? nullptr : it->second;
+namespace sylar {
+
+static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");
+
+ConfigVarBase::ptr Config::LookupBase(const std::string &name) {
+    RWMutexType::ReadLock lock(GetMutex());
+    auto it = GetDatas().find(name);
+    return it == GetDatas().end() ? nullptr : it->second;
+}
+
+//"A.B", 10
+
+static void ListAllMember(const std::string &prefix,
+                          const YAML::Node &node,
+                          std::list<std::pair<std::string, const YAML::Node>> &output) {
+    //配置名无效
+    if (prefix.find_first_not_of("abcdefghikjlmnopqrstuvwxyz._012345678") != std::string::npos) {
+        SYLAR_LOG_ERROR(g_logger) << "Config invalid name: " << prefix << " : " << node;
+        return;
     }
-    static void ListAllMember(const std::string& prefix, const YAML::Node& node,
-        std::list<std::pair<std::string, const YAML::Node> >& output) {//这个string不带&
-        if(prefix.find_first_not_of("abcdefghikjlmnopqrstuvwxyz._012345678")
-        != std::string::npos){
-            SYLAR_LOG_ERROR(SYLAR_LOG_ROOT()) << "Config invalid name: "<< prefix
-            << " : " << node;
-            return;
+    //插入配置名和节点
+    output.push_back(std::make_pair(prefix, node));
+    //对于map,若为
+    //A:
+    //  B: 10
+    //  C: str
+    //则还要插入"A.B", 10 和 "A.C", str
+    if (node.IsMap()) {
+        for (auto it = node.begin();
+             it != node.end(); ++it) {
+            ListAllMember(prefix.empty() ? it->first.Scalar()
+                                         : prefix + "." + it->first.Scalar(),
+                          it->second, output);
         }
-        //这段代码为什么这么转化
-        output.push_back(std::make_pair(prefix, node));
-        if(node.IsMap()){
-            for(auto it = node.begin(); it != node.end(); ++it){
-                ListAllMember(prefix.empty() ? it->first.Scalar()
-                :prefix + "." + it->first.Scalar(), it->second, output);
+    }
+}
+void Config::LoadFromYaml(const YAML::Node &root) {
+    std::list<std::pair<std::string, const YAML::Node>> all_nodes;
+
+    ListAllMember("", root, all_nodes);
+
+    for (auto &i : all_nodes) {
+        std::string key = i.first;
+        if (key.empty()) {
+            continue;
+        }
+
+        std::transform(key.begin(), key.end(), key.begin(), ::tolower);
+        ConfigVarBase::ptr var = LookupBase(key);
+
+        //检查各个参数，如果参数的值有发生变化,则通知对应的注册回调函数
+        if (var) {
+            if (i.second.IsScalar()) {
+                var->fromString(i.second.Scalar());
+            } else {
+                std::stringstream ss;
+                ss << i.second;
+                var->fromString(ss.str());
             }
         }
     }
-    void Config::LoadFromYaml(const YAML::Node& root){
-        std::list<std::pair<std::string, const YAML::Node> >all_nodes;
-        ListAllMember("", root, all_nodes);
-        
-        for(auto& i : all_nodes){
-            std::string key = i.first;
-            if(key.empty()){
+}
+
+/// 记录每个文件的修改时间
+static std::map<std::string, uint64_t> s_file2modifytime;
+
+
+static sylar::Mutex s_mutex;
+
+/// bool force：是否强制加载配置文件，非强制加载的情况下，如果记录的文件修改时间未变化，则跳过该文件的加载
+void Config::LoadFromConfDir(const std::string &path, bool force) {
+    std::string absoulte_path = sylar::EnvMgr::GetInstance()->getAbsolutePath(path);
+    std::vector<std::string> files;
+    //取当前目录下所有yml文件
+    FSUtil::ListAllFile(files, absoulte_path, ".yml");
+
+    for (auto &i : files) {
+        {
+            struct stat st;
+            lstat(i.c_str(), &st);
+            sylar::Mutex::Lock lock(s_mutex);
+            if (!force && s_file2modifytime[i] == (uint64_t)st.st_mtime) {
                 continue;
             }
-
-            std::transform(key.begin(), key.end(), key.begin(), ::tolower);
-            ConfigVarBase::ptr var = LookupBase(key);
-
-            if(var){
-                if(i.second.IsScalar()){
-                    var->fromString(i.second.Scalar());//将string数字值转换为数字
-                }else{
-                    std::stringstream ss;
-                    ss << i.second;
-                    var->fromString(ss.str());
-                }
-            }
+            s_file2modifytime[i] = st.st_mtime;
+        }
+        try {
+            YAML::Node root = YAML::LoadFile(i);
+            //文件作为最大的yml节点解析配置
+            LoadFromYaml(root);
+            SYLAR_LOG_INFO(g_logger) << "LoadConfFile file="
+                                     << i << " ok";
+        } catch (...) {
+            SYLAR_LOG_ERROR(g_logger) << "LoadConfFile file="
+                                      << i << " failed";
         }
     }
+}
+
+void Config::Visit(std::function<void(ConfigVarBase::ptr)> cb) {
+    RWMutexType::ReadLock lock(GetMutex());
+    ConfigVarMap &m = GetDatas();
+    for (auto it = m.begin();
+         it != m.end(); ++it) {
+        cb(it->second);
+    }
+}
+
 }

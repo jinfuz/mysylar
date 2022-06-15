@@ -1,0 +1,1244 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/root/\u684c\u9762/workspace/sylar/lib/libsylar.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories",
+			"set_property",
+			"force_redefine_file_macro_for_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/utils.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "__FILE__=\"sylar/log.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "__FILE__=\"sylar/util.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "__FILE__=\"sylar/mutex.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "__FILE__=\"sylar/env.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "__FILE__=\"sylar/config.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "__FILE__=\"sylar/thread.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "__FILE__=\"sylar/fiber.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "__FILE__=\"sylar/scheduler.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "__FILE__=\"sylar/iomanager.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 13,
+					"define" : "__FILE__=\"sylar/timer.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 14,
+					"define" : "__FILE__=\"sylar/fd_manager.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "__FILE__=\"sylar/hook.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 16,
+					"define" : "__FILE__=\"sylar/address.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "__FILE__=\"sylar/socket.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 18,
+					"define" : "__FILE__=\"sylar/bytearray.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				14
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 19,
+					"define" : "__FILE__=\"sylar/tcp_server.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				15
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 20,
+					"define" : "__FILE__=\"sylar/http/http-parser/http_parser.c\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				16
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 21,
+					"define" : "__FILE__=\"sylar/http/http.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				17
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 22,
+					"define" : "__FILE__=\"sylar/http/http_parser.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				18
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 23,
+					"define" : "__FILE__=\"sylar/stream.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				19
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 24,
+					"define" : "__FILE__=\"sylar/streams/socket_stream.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				20
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 25,
+					"define" : "__FILE__=\"sylar/http/http_session.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				21
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 26,
+					"define" : "__FILE__=\"sylar/http/servlet.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				22
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 27,
+					"define" : "__FILE__=\"sylar/http/http_server.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				23
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 28,
+					"define" : "__FILE__=\"sylar/uri.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				24
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 29,
+					"define" : "__FILE__=\"sylar/http/http_connection.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				25
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 30,
+					"define" : "__FILE__=\"sylar/daemon.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/root/\u684c\u9762/workspace/sylar/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				26
+			]
+		}
+	],
+	"id" : "sylar::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sylar",
+	"nameOnDisk" : "libsylar.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sylar/log.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "sylar/util.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "sylar/mutex.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 3,
+			"path" : "sylar/env.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 4,
+			"path" : "sylar/config.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 5,
+			"path" : "sylar/thread.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 6,
+			"path" : "sylar/fiber.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 7,
+			"path" : "sylar/scheduler.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 8,
+			"path" : "sylar/iomanager.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 9,
+			"path" : "sylar/timer.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 10,
+			"path" : "sylar/fd_manager.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 11,
+			"path" : "sylar/hook.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 12,
+			"path" : "sylar/address.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 13,
+			"path" : "sylar/socket.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 14,
+			"path" : "sylar/bytearray.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 15,
+			"path" : "sylar/tcp_server.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 16,
+			"path" : "sylar/http/http-parser/http_parser.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 17,
+			"path" : "sylar/http/http.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 18,
+			"path" : "sylar/http/http_parser.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 19,
+			"path" : "sylar/stream.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 20,
+			"path" : "sylar/streams/socket_stream.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 21,
+			"path" : "sylar/http/http_session.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 22,
+			"path" : "sylar/http/servlet.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 23,
+			"path" : "sylar/http/http_server.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 24,
+			"path" : "sylar/uri.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 25,
+			"path" : "sylar/http/http_connection.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 26,
+			"path" : "sylar/daemon.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

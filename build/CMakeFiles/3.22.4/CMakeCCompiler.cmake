@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/usr/local/bin/cc")
+set(CMAKE_C_COMPILER "/opt/rh/devtoolset-11/root/usr/bin/gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "11.2.1")
@@ -21,11 +21,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/usr/local/bin/ar")
-set(CMAKE_C_COMPILER_AR "/usr/local/bin/gcc-ar")
-set(CMAKE_RANLIB "/usr/local/bin/ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/usr/local/bin/gcc-ranlib")
-set(CMAKE_LINKER "/usr/local/bin/ld")
+set(CMAKE_AR "/opt/rh/devtoolset-11/root/usr/bin/ar")
+set(CMAKE_C_COMPILER_AR "/opt/rh/devtoolset-11/root/usr/bin/gcc-ar")
+set(CMAKE_RANLIB "/opt/rh/devtoolset-11/root/usr/bin/ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/opt/rh/devtoolset-11/root/usr/bin/gcc-ranlib")
+set(CMAKE_LINKER "/opt/rh/devtoolset-11/root/usr/bin/ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
