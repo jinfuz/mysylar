@@ -1,3 +1,8 @@
+/**
+ * @file test_log.cpp
+ * @brief 日志类测试
+ * @version 0.1
+ */
 #include "sylar/sylar.h"
 
 #include <unistd.h>

@@ -1,3 +1,8 @@
+/**
+ * @file test_bytearray.cc
+ * @brief Bytearray类测试
+ * @version 0.1
+ */
 #include <algorithm>
 #include <sylar/sylar.h>
 

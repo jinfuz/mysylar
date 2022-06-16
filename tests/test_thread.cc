@@ -1,3 +1,8 @@
+/**
+ * @file test_thread.cc
+ * @brief 线程模块测试
+ * @version 0.1
+ */
 #include "sylar/sylar.h"
 
 sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();

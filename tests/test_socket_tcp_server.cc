@@ -1,3 +1,8 @@
+/**
+ * @file test_socket.cc
+ * @brief 测试Socket类，tcp服务器
+ * @version 0.1
+ */
 #include <sylar/sylar.h>
 
 static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();

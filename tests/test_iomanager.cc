@@ -1,3 +1,10 @@
+/**
+ * @file test_iomanager.cc 
+ * @brief IO协程调度器测试
+ * @details 通过IO协程调度器实现一个简单的TCP客户端，这个客户端会不停地判断是否可读，并把读到的消息打印出来
+ *          当服务器关闭连接时客户端也退出
+ * @version 0.1
+ */
 #include "sylar/sylar.h"
 #include <unistd.h>
 #include <sys/types.h>

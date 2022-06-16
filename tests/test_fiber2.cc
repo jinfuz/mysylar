@@ -1,3 +1,8 @@
+/**
+ * @file test_fiber2.cc
+ * @brief 协程测试，用于演示非对称协程
+ * @version 0.1
+ */
 #include "sylar/fiber.h"
 #include "sylar/sylar.h"
 #include <string>

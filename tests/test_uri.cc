@@ -1,3 +1,8 @@
+/**
+ * @file test_uri.cc 
+ * @brief URI类测试
+ * @version 0.1
+ */
 #include "sylar/sylar.h"
 #include <iostream>
 

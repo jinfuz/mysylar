@@ -1,3 +1,8 @@
+/**
+ * @file test_scheduler.cc
+ * @brief 协程调度器测试
+ * @version 0.1
+ */
 #include "sylar/sylar.h"
 
 static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();
