@@ -184,7 +184,7 @@ setsockopt
 
 
 #### 使用说明
-
+需先安装好boost库和yaml库。
 1.  进入build目录，执行命令： cmake ..
 2.  再执行命令： make 即可编译完成
 
