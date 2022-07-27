@@ -35,12 +35,10 @@ SYLAR_LOG_FMT_INFO(g_logger, "%s", "this is a log");
 
 `LoggerManager`：日志器管理类，单例模式，包含全部的日志器集合，并且提供工厂方法，用于创建或获取日志器。LoggerManager初始化时自带一个root日志器，这为日志模块提供一个初始可用的日志器。
 
-本项目的日志模块基于sylar的进行了简化，同时参考了log4cpp的一些设计，在保证功能可用的情况下，简化了几个类的设计，降低了耦合度。目前来看，在LogAppender上仍然需要丰富，以下几种类型的Appender在实际项目中都非常有必要实现：
+本项目的日志模块基于sylar的进行了简化，同时参考了log4cpp的一些设计，在保证功能可用的情况下，简化了几个类的设计，降低了耦合度。目前以下几种类型的Appender在实际项目中都有必要实现：
 
 1. Rolling File Appender，循环覆盖写文件
-2. 内存Rolling Appender
-3. 支持Log日志按大小分片
-4. 支持网络日志服务器，比如syslog
+2. 支持Log日志按大小分片
 
 ### Util与Marco模块
 
@@ -96,8 +94,6 @@ tcp:
 `Spinlock`: 自旋锁，基于pthread_spinlock_t实现  
 `CASLock`: 原子锁，基于std::atomic_flag实现  
 
-待改进：
-线程取消及线程清理
 
 ### 协程模块
 
