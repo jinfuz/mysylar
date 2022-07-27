@@ -2,7 +2,6 @@
 
 #### 介绍
 学习sylar的高性能C++服务器，从零开始重写[sylar C++高性能分布式服务器框架](https://github.com/sylar-yin/sylar)
-项目讲解参考在线文档：[从零开始重写sylar C++高性能分布式服务器框架](https://www.midlane.top/wiki/pages/viewpage.action?pageId=10060952)。其性能测试见[sylar服务器框架性能测试(sylar)](https://www.bilibili.com/video/BV18441137yn?spm_id_from=333.999.0.0&vd_source=a09a513d1ec8904995f64a5da33825fd)
 
 ## 模块概述
 
@@ -187,5 +186,6 @@ setsockopt
 需先安装好boost库和yaml库。
 1.  进入build目录，执行命令： cmake ..
 2.  再执行命令： make 即可编译完成
-
+### 性能测试
+使用ab进行测试，在4核4GB内存，centos7.6系统下，http短连接每秒处理速度在17000笔/秒，长连接速度约为43000笔/秒
 
